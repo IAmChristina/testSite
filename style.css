@@ -1,0 +1,97 @@
+[class*=grid-], [class*=grid_], [class~=grid] {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 2% -.5rem;
+  }
+
+body{
+  font-family: 'Slabo 27px';
+  padding: 1%;
+  margin: 1%;
+  background: #355C7D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.bgImg{
+  background-image: url("https://source.unsplash.com/random/400x300");
+  height: 25vh;
+  border: 1px solid #ffffff94;
+  border-radius: 5%
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.bgImg:hover{
+ filter: grayscale(100%);
+  /* transition: .3s ease-in; */
+
+}
+
+input{
+  font-family: 'Slabo 27px';
+  border-radius: 5px;
+  padding: 3px 0 3px 10px;
+  margin: 3px 1px;
+  height: 30px;
+  text-transform: uppercase;
+  font-size: .8rem;
+  width: 100%;
+  background-color: #ffffff94;
+}
+
+.buttonSignUp, .buttonFade, .buttonSearch{
+  padding: 5px 15px;
+  margin: -5px 1px;
+  background-color: #d0d0d000;
+  color: #ffffff94;
+  border-radius: 5px;
+  font-family: 'Slabo 27px';
+  font-size: 1rem;
+  width: 100%;
+}
+
+form input{
+  margin: -5px 1px;
+}
+
+/* .buttonFade{
+  padding: 5px 15px;
+  margin: 1px 1px;
+  background-color: #c3c1c1;
+  border-radius: 5px;
+  font-family: 'Slabo 27px';
+  font-size: 1rem;
+  width: 100%;
+} */
+
+/* .buttonSearch{
+  padding: 5px 15px;
+  margin: 1px 1px;
+  background-color: #c3c1c1;
+  border-radius: 5px;
+  font-family: 'Slabo 27px';
+  font-size: 1rem;
+  width: 100%;
+} */
+
+button:hover{
+  background-color: #ffffff94;
+  color: #675a7b;
+}
+
+#sticker{
+  position: sticky;
+  border: 5px #ffffff94 solid;
+  color: #ffffff94;
+  background-color: #d0d0d000;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  float: left;
+
+  /* margin: 5px 5px; */
+}
